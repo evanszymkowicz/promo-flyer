@@ -4,9 +4,9 @@
 @import 'settings';
 @import 'foundation-emails';
 
-@import
-	'components/main',
-	'components/preheader',
-	'components/header',
-	'components/details',
-	'components/footer';
+@import 'collage';
+@import 'details';
+@import 'header';
+@import 'heroimage';
+@import 'promo';
+@import 'social';

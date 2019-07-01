@@ -1,0 +1,54 @@
+.header {
+  background: $white;
+  background-color: $white;
+
+  .columns {
+    padding-bottom: 20px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    padding-top: 20px;
+    .logo_white {
+      width: 128px;
+    }
+    .user_icon {
+      width: 32px;
+    }
+  }
+}
+
+.header .container {
+  background: transparent;
+}
+
+.sub-header {
+  background: $white;
+  background-color: $primary-color;
+
+  .columns {
+    padding-bottom: 5px;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    padding-top: 5px;
+    a {
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 700;
+      .icons {
+        width: 20px;
+        margin-right: 5px;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+    }
+    th {
+      text-align: center;
+    }
+    .menu-divider {
+      display: block;
+      height: 20px;
+      width: 1px;
+      // background: $white;
+      // background-color: $black;
+    }
+  }
+}

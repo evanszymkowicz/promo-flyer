@@ -1,0 +1,27 @@
+.mapHeader {
+   color: $primary-color;
+   font-weight: bold;
+   font-size: 12px;
+   text-transform: uppercase;
+
+   span {
+      display: block;
+      color: $black;
+      font-weight: normal;
+   }
+}
+
+.sched {
+   color: $dark-gray;
+   font-size: 13px;
+}
+
+ul.perks li {
+   font-size: 14px;
+   padding-left: 0!important;
+}
+
+
+.logo {
+   max-height: 80px;
+}

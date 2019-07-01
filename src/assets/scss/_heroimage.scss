@@ -1,0 +1,19 @@
+.heroimage {
+   background-size: cover;
+   height: 40vh;
+
+  h1 {
+      color: $white;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+   p.heroDescription {
+      color: $white;
+      font-weight: 700;
+     }
+}
+
+header .wrapper-inner {
+  padding: 20px;
+}
