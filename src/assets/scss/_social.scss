@@ -1,5 +1,12 @@
-.color {
-	background: #0d2236;
-  background-color: #0d2236;
-	padding: 0;
+.social {
+  & .columns {
+    padding-bottom: 0;
+  }
+  & img {
+    @media only screen and (max-width: #{$global-breakpoint}) {
+      display: block!important;
+      height: 22px!important;
+      width: auto!important;
+    }
+  }
 }

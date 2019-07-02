@@ -7,11 +7,8 @@
     padding-right: 20px !important;
     padding-left: 20px !important;
     padding-top: 20px;
-    .logo_white {
+    .logo {
       width: 128px;
-    }
-    .user_icon {
-      width: 32px;
     }
   }
 }
@@ -22,7 +19,7 @@
 
 .sub-header {
   background: $white;
-  background-color: $primary-color;
+  background-color: $dark-blue;
 
   .columns {
     padding-bottom: 5px;
@@ -30,25 +27,19 @@
     padding-left: 10px !important;
     padding-top: 5px;
     a {
-      color: #ffffff;
+      color: $white;
       font-size: 14px;
       font-weight: 700;
-      .icons {
-        width: 20px;
-        margin-right: 5px;
-        display: inline-block;
-        vertical-align: bottom;
-      }
     }
     th {
       text-align: center;
     }
     .menu-divider {
       display: block;
-      height: 20px;
+      height: 15px;
       width: 1px;
-      // background: $white;
-      // background-color: $black;
+      background: $white;
+      background-color: $white;
     }
   }
 }
