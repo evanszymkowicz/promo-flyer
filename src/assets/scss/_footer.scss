@@ -1,0 +1,27 @@
+.footer {
+	background: $dark-blue;
+	.menu-item {
+		font: $title-font;
+    font-size: 12px;
+		span {
+      color: #8094A4;
+    }
+    a {
+      color: $special-color !important;
+    }
+  }
+}
+
+.footer .container {
+	background: $dark-blue;
+}
+
+.social {
+  & img {
+    @media only screen and (max-width: #{$global-breakpoint}) {
+      display: block!important;
+      height: 22px!important;
+      width: auto!important;
+    }
+  }
+}

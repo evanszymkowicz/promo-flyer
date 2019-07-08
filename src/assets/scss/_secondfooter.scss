@@ -1,0 +1,18 @@
+.secondfooter {
+	background: $second-footer;
+
+	.highlighted-offer {
+		color: $trim-color;
+		text-transform: uppercase;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    letter-spacing: 0.10938rem;
+	}
+	.container {
+		background: $second-footer;
+	}
+}
+
+// .award {
+// 	.h5: $trim-color;
+// }

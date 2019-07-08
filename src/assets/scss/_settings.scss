@@ -15,9 +15,11 @@
 // 1. Global
 // ---------
 
-$primary-color: #2199e8;
-$background-color: #2199e8;
+$primary-color: #0071A6;
+$background-color: #EDF1F5;
 $secondary-color: #777777;
+$special-color: #E0F2FF;
+$trim-color: #99EEF9;
 $success-color: #3adb76;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
@@ -25,14 +27,16 @@ $light-gray: #f3f3f3;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $dark-blue: #0d2236;
+$second-footer: #001a33;
 $black: #0a0a0a;
 $white: #fefefe;
+$off-blue: #425E66;
 $red: #ff0000;
 $pre-color: #ff6908;
 $global-width: 600px;
 $global-width-small: 95%;
 $global-gutter: 16px;
-$body-background: $primary-color;
+$body-background: $background-color;
 $container-background: $white;
 $global-padding: 16px;
 $global-margin: 16px;
@@ -57,9 +61,10 @@ $block-grid-gutter: $global-gutter;
 // -------------
 
 $global-font-color: $black;
+$special-font: 'Marck Script', cursive;
 $title-font: 'Merriweather', serif;
 $body-font-family: 'Roboto', sans-serif;
-$paragraph-text: 'Roboto', sans-serif;
+$paragraph-text: 'Montserrat', sans-serif;
 $global-font-weight: normal;
 $header-color: inherit;
 $global-line-height: 1.3;
