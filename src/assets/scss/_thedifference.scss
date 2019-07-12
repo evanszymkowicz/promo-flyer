@@ -1,3 +1,16 @@
 .wrapper-color {
-	background: $secondary-color;
+	background-color: $background-color;
+	.container {
+		background: $the-difference-color;
+	}
+}
+
+h2 {
+	text-align: center;
+	font-style: italic;
+	color: $dark-blue;
+}
+
+h3, h4, h5 {
+	color: $dark-blue;
 }

@@ -1,15 +1,17 @@
-.promo {
-   padding: 0 30px!important;
+// .container {
+//   padding: 10px;
+// }
+
+.reading {
+  text-align: center;
 }
 
-.aboutpromoheader {
-   color: #556773;
-   font-family: $paragraph-text;
-   // font-weight: bolder;
-   text-shadow: 0px .5px, .5px 0px, .5px .5px;
-   font-size: 15px;
+.aboutpromoHeader {
+  color: $primary-color;
+  text-transform: bolder;
+
 }
 
-.aboutpromodescription {
-   font-size: $h6-font-size;
+.aboutpromoDescription {
+  padding: 5px;
 }

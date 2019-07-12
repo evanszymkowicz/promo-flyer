@@ -1,45 +1,26 @@
 .header {
   background: $white;
   background-color: $white;
-
-  .columns {
-    padding-bottom: 20px;
-    padding-right: 20px !important;
-    padding-left: 20px !important;
-    padding-top: 20px;
-    .logo {
-      width: 128px;
-    }
+  .logo {
+    width: 128px;
   }
 }
 
-.header .container {
-  background: transparent;
+.sub-header {
+  background-color: $second-footer;
+  .container {
+    background: $second-footer;
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+  }
 }
 
-.sub-header {
-  background: $white;
-  background-color: $dark-blue;
+.columns {
+  padding: 5px 10px !important;
 
-  .columns {
-    padding-bottom: 5px;
-    padding-right: 10px !important;
-    padding-left: 10px !important;
-    padding-top: 5px;
-    a {
-      color: $white;
-      font-size: 14px;
-      font-weight: 700;
-    }
-    th {
-      text-align: center;
-    }
-    .menu-divider {
-      display: block;
-      height: 15px;
-      width: 1px;
-      background: $white;
-      background-color: $white;
-    }
+  .text-center {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
   }
 }
